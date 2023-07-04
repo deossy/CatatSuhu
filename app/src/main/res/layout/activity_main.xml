@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C8B6E2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:text="Catat Suhu"
+        android:textColor="#495C83"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="15dp"
+        android:background="#495C83"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Aplikasi Monitoring Suhu Badan"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/hari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="hari ini"
+            android:textColor="#495C83"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="NIS:"
+            android:textColor="#495C83"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/editTextNis"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#E9F5FB" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Suhu Terukur:"
+            android:textColor="#495C83"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/editTextSuhu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#E9F5FB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/simpandata"
+            android:layout_width="300dp"
+            android:layout_height="131dp"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#7A86B6"
+            android:text="SIMPAN DATA"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/lihatdata"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#A8A4CE"
+            android:text="lihat data"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
